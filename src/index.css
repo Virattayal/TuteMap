@@ -1,0 +1,137 @@
+body{
+  overflow: hidden;
+  margin-left: 170px;
+}
+.nav{
+  background-color: rgb(132, 190, 236);
+  border-radius:10px;
+  margin-left: 40px;
+}
+.button1{
+  width: 160px;
+  height: 40px;
+  border-radius: 10px;
+  border: 2px solid white;
+  background-color:rgb(132, 190, 236);
+}
+.button1:hover{
+  background-color: aliceblue;
+  border: 2px solid black;
+}
+.button1:active{
+  background-color: aliceblue;
+  border: 2px solid black;
+}
+.button2{
+  position: relative;
+  right: 240px;
+  width: 160px;
+  height: 40px;
+  border-radius: 10px;
+  border: 2px solid white;
+  background-color:rgb(132, 190, 236);
+}
+.button2:hover{
+  background-color: aliceblue;
+  border: 2px solid black;
+}
+.button2:active{
+  background-color: aliceblue;
+  border: 2px solid black;
+}
+.nav-link{
+  color: black;
+  margin: 8px;
+  text-align: left;
+  font-family: cursive;
+  text-decoration: none;
+}
+.container {
+  height: 550px;
+  overflow-x: hidden;
+  overflow-y: auto;
+  background-color: rgb(132, 190, 236);
+  display: grid;
+  grid-gap: 30px;
+  grid-template-columns: 400px 400px;
+  padding-top: 15px;
+  padding-bottom: 35px;
+  padding-left: 25px;
+  border-radius: 10px;
+  margin: 5px auto;
+  margin-right: 385px;
+  margin-left: 15px;
+}
+.container1 {
+  overflow: scroll; 
+  height: 50%;
+  background-color: rgb(132, 190, 236);
+  display: grid;
+  grid-gap: 40px;
+  grid-template-columns: 400px 400px 400px;
+  padding-top: 15px;
+  padding-bottom: 35px;
+  padding-left: 25px;
+  border-radius: 10px;
+  margin: 5px auto;
+  margin-right: 385px;
+  margin-left: 15px;
+}
+.container .box {
+  border-radius: 10px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  padding: 36px 30px 30px 10px;
+}
+p.small {
+  font-size: 13.5px;
+  margin-top: 2px;
+  margin-bottom: 0px;
+}
+h1{
+  margin-top: 15px;
+  margin-left: 40px;
+  font-weight: bolder;
+}
+section.padding {
+  padding: 1rem 0;
+}
+section {
+  position: relative;
+  width: 100vw;
+}
+.star{
+  color: yellow;
+}
+.card{
+  margin-left:10px;
+}
+.card-body {
+  flex: 1 1 auto;
+  padding: 0rem 1rem;
+}
+
+.card-title{
+  margin-bottom: 0rem;
+}
+
+.detail{
+  margin-left: 80px;
+}
+.profile{
+  margin-top: 50px;
+}
+.edit{
+    position:relative;
+    top: -10px;
+    left: 550px;
+    padding: 0px 0px ;
+    /* width: 100px;
+    height: 100px; */
+    background-color: rgb(132, 190, 236);
+    border: 0px;
+}
+.edit:hover{
+  color: white;
+}
